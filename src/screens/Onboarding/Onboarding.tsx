@@ -1,5 +1,1 @@
-import { Text } from "react-native";
-
-export default function Onboarding() {
-  return <Text>Hiiiiiiiiiiiiiiiiii</Text>;
-}
+export default function Onboarding() {}

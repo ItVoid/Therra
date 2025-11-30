@@ -7,11 +7,7 @@ export default function StackNavigation() {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        <Stack.Screen 
-          name="onboarding" 
-          component={Onboarding}
-          options={{ headerShown: false }}
-        />
+        <Stack.Screen name="onboarding" component={Onboarding} />
       </Stack.Navigator>
     </NavigationContainer>
   );
